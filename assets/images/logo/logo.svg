@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <!-- Radial Warm Cream Background -->
+    <radialGradient id="bgGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="85%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#FBF7F0"/>
+    </radialGradient>
+
+    <!-- Metallic Artisan Gold Gradient for Borders -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#845313"/>
+      <stop offset="35%" stop-color="#A87738"/>
+      <stop offset="50%" stop-color="#C59B5F"/>
+      <stop offset="70%" stop-color="#8E5B1A"/>
+      <stop offset="100%" stop-color="#845313"/>
+    </linearGradient>
+
+    <!-- Curved path for top flourish / text if needed -->
+    <path id="topArc" d="M 90 250 A 160 160 0 0 1 410 250" fill="none"/>
+    <path id="bottomArc" d="M 90 250 A 160 160 0 0 0 410 250" fill="none"/>
+  </defs>
+
+  <!-- Circular Base -->
+  <circle cx="250" cy="250" r="242" fill="url(#bgGradient)"/>
+  
+  <!-- Outer Gold Rim -->
+  <circle cx="250" cy="250" r="236" fill="none" stroke="url(#goldGradient)" stroke-width="3"/>
+  <circle cx="250" cy="250" r="228" fill="none" stroke="#E2D4BE" stroke-width="1.2"/>
+
+  <!-- Decorative Beaded / Stitched Inner Ring -->
+  <circle cx="250" cy="250" r="221" fill="none" stroke="#A87738" stroke-width="1.5" stroke-dasharray="3 4"/>
+
+  <!-- Top Decorative Sparkles / Stars -->
+  <g fill="#A87738" opacity="0.85">
+    <!-- Center Top Star -->
+    <path d="M 250 82 Q 250 94 257 94 Q 250 94 250 106 Q 250 94 243 94 Q 250 94 250 82 Z" fill="#845313"/>
+    <!-- Flanking Tiny Dots -->
+    <circle cx="225" cy="94" r="2" fill="#A87738"/>
+    <circle cx="275" cy="94" r="2" fill="#A87738"/>
+    <circle cx="205" cy="97" r="1.5" fill="#C59B5F"/>
+    <circle cx="295" cy="97" r="1.5" fill="#C59B5F"/>
+  </g>
+
+  <!-- Center Brand Name Lockup -->
+  <!-- "KraftAmore" -->
+  <text x="232" y="248" 
+        text-anchor="middle" 
+        font-family="'Plus Jakarta Sans', 'Outfit', 'Poppins', 'Montserrat', -apple-system, sans-serif" 
+        font-size="52" 
+        font-weight="800" 
+        letter-spacing="-0.02em" 
+        fill="#1E1B18">KraftAmore</text>
+
+  <!-- Heart Outline '♡' in Authentic Brand Coral/Rose -->
+  <!-- Positioned right after KraftAmore -->
+  <g transform="translate(382, 228) scale(1.15)">
+    <path d="M 0 -8 C -4 -16, -14 -14, -14 -4 C -14 5, -2 12, 0 15 C 2 12, 14 5, 14 -4 C 14 -14, 4 -16, 0 -8 Z" 
+          fill="none" 
+          stroke="#D8525D" 
+          stroke-width="3.2" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+  </g>
+
+  <!-- Tagline: "CREATIONS • CRAFTS • HAPPINESS" -->
+  <!-- Authentic Golden-Ochre Brown (#845313) -->
+  <text x="250" y="292" 
+        text-anchor="middle" 
+        font-family="'Plus Jakarta Sans', 'Outfit', 'Poppins', 'Montserrat', -apple-system, sans-serif" 
+        font-size="14.5" 
+        font-weight="800" 
+        letter-spacing="0.22em" 
+        fill="#845313">CREATIONS • CRAFTS • HAPPINESS</text>
+
+  <!-- Delicate Bottom Accent -->
+  <g fill="#A87738" opacity="0.85">
+    <path d="M 250 398 Q 250 408 256 408 Q 250 408 250 418 Q 250 408 244 408 Q 250 408 250 398 Z" fill="#845313"/>
+    <circle cx="228" cy="408" r="2" fill="#A87738"/>
+    <circle cx="272" cy="408" r="2" fill="#A87738"/>
+    <circle cx="210" cy="405" r="1.5" fill="#C59B5F"/>
+    <circle cx="290" cy="405" r="1.5" fill="#C59B5F"/>
+  </g>
+
+  <!-- Small Bottom Sub-tagline: Gujarat • India / Handmade With Love -->
+  <text x="250" y="348" 
+        text-anchor="middle" 
+        font-family="'Plus Jakarta Sans', 'Outfit', 'Poppins', sans-serif" 
+        font-size="11" 
+        font-weight="700" 
+        letter-spacing="0.18em" 
+        fill="#A87738" 
+        opacity="0.9">✦ HANDMADE WITH LOVE ✦</text>
+</svg>

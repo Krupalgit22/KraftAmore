@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handcrafted Collection — Handpainted Canvas Bags &amp; Indian Festive Torans | KraftAmore</title>
+  <meta name="description" content="Explore KraftAmore's catalog of handpainted organic cotton canvas bags and authentic Indian festive torans. Handcrafted with love in Gujarat, India • #VocalForLocal">
+  <link rel="icon" type="image/png" href="assets/images/logo/logo.png">
+
+  <!-- =========================================================================
+       1. GOOGLE FONTS (Plus Jakarta Sans & Playfair Display)
+       ========================================================================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- =========================================================================
+       2. BOOTSTRAP 5 CSS & BOOTSTRAP ICONS (Standard, clean, easy to update)
+       ========================================================================= -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- =========================================================================
+       3. KRAFTAMORE BRAND STYLESHEET (Logo-aligned colors & custom components)
+       ========================================================================= -->
+  <link rel="stylesheet" href="assets/css/modern.css">
+</head>
+<body class="products-page-body bg-light">
+
+  <!-- =========================================================================
+       TOP ANNOUNCEMENT & CULTURAL HASHTAGS TICKER
+       ========================================================================= -->
+  <aside class="top-announcement-bar">
+    <div class="container announcement-inner">
+      <span>✨ 12 HANDCRAFTED CREATIONS • 100% ARTISANAL • PAN-INDIA DELIVERY 📦</span>
+      <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="announcement-link">
+        Direct WhatsApp Inquiry: +91 98765 43210 💬
+      </a>
+    </div>
+  </aside>
+
+  <div class="cultural-hashtags-subbar">
+    <div class="hashtag-track-scroll">
+      <span class="hash-tag-pill">#HandmadeWithLove ♡</span>
+      <span class="hash-tag-pill">#HomeSweetHome 🏡</span>
+      <span class="hash-tag-pill">#DiwaliDecor ✨</span>
+      <span class="hash-tag-pill">#DoorHangings 🚪</span>
+      <span class="hash-tag-pill">#VocalForLocal 🇮🇳</span>
+      <span class="hash-tag-pill">#ArtisanMade 🎨</span>
+      <span class="hash-tag-pill">#GujaratiHandicrafts 🪞</span>
+      <span class="hash-tag-pill">#SmallBusinessIndia 💌</span>
+      <span class="hash-tag-pill">#HandmadeWithLove ♡</span>
+      <span class="hash-tag-pill">#HomeSweetHome 🏡</span>
+      <span class="hash-tag-pill">#DiwaliDecor ✨</span>
+      <span class="hash-tag-pill">#DoorHangings 🚪</span>
+      <span class="hash-tag-pill">#VocalForLocal 🇮🇳</span>
+      <span class="hash-tag-pill">#ArtisanMade 🎨</span>
+      <span class="hash-tag-pill">#GujaratiHandicrafts 🪞</span>
+      <span class="hash-tag-pill">#SmallBusinessIndia 💌</span>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       MAIN NAVIGATION HEADER
+       Clean Menu: Home, Products, Our Story (Custom Design tab removed)
+       ========================================================================= -->
+  <header class="main-nav-header bg-white border-bottom sticky-top">
+    <div class="container nav-inner-container">
+      
+      <!-- Brand Round Logo (Without square background) -->
+      <a href="index.html" class="brand-identity-lockup" aria-label="KraftAmore Home">
+        <img src="assets/images/logo/logo.png" alt="KraftAmore - Creations • Crafts • Happiness" class="brand-circle-logo">
+      </a>
+
+      <!-- Clean Header Navigation Links -->
+      <nav>
+        <ul class="site-menu-links" id="nav-links">
+          <li><a href="index.html" class="menu-link-item">Home</a></li>
+          <li><a href="products.html" class="menu-link-item active">Products</a></li>
+          <li><a href="index.html#about" class="menu-link-item">Our Story</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions: Direct WhatsApp & Inquiry Bag -->
+      <div class="header-actions-wrap d-flex align-items-center gap-2">
+        <a href="https://wa.me/919876543210?text=Hi%20KraftAmore!%20I%20am%20browsing%20your%20products%20catalog%20and%20would%20like%20to%20inquire." 
+           class="btn-pill-coral wa-link text-decoration-none" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           title="Inquire on WhatsApp">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.888 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+          </svg>
+          <span class="d-none d-sm-inline">WhatsApp</span>
+        </a>
+
+        <!-- Inquiry Bag Trigger -->
+        <button class="btn-bag-counter" id="open-bag-btn" title="View Inquiry Bag">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="d-none d-md-inline">Bag</span>
+          <span class="bag-badge-pill" id="bag-count-badge">0</span>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-nav-btn d-lg-none" id="mobile-menu-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         HERO INTRO SECTION (BOOTSTRAP CONTAINER)
+         ========================================================================= -->
+    <section class="py-5 text-center" style="background-color: var(--bg-section-alt, #FAF6F0); border-bottom: 1px solid var(--border-soft);">
+      <div class="container py-3">
+        
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb" class="mb-3">
+          <ol class="breadcrumb justify-content-center small text-muted mb-0">
+            <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none" style="color: var(--coral-primary);">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Products</li>
+          </ol>
+        </nav>
+
+        <span class="badge rounded-pill px-3 py-2 text-uppercase fw-bold mb-3" style="background-color: rgba(184, 130, 66, 0.15); color: var(--ochre-primary); letter-spacing: 0.1em; font-size: 0.8rem;">
+          HANDCRAFTED IN GUJARAT • #VOCALFORLOCAL
+        </span>
+
+        <h1 class="display-5 fw-bold mb-3" style="font-family: var(--font-serif); color: var(--text-dark);">
+          The Handcrafted Collection
+        </h1>
+
+        <p class="lead mx-auto text-secondary mb-4" style="max-width: 680px; font-size: 1.1rem; line-height: 1.65;">
+          Discover our 2 authentic categories: 100% natural organic cotton handpainted canvas bags and Indian festive entrance torans. Handcrafted with love in Gujarat, India.
+        </p>
+
+        <!-- Trust Badges Strip (Bootstrap Flex Row) -->
+        <div class="d-flex justify-content-center gap-3 gap-md-4 flex-wrap small fw-bold text-muted pt-2">
+          <span class="d-flex align-items-center gap-1"><i class="bi bi-check-circle-fill text-success"></i> 100% Handcrafted</span>
+          <span class="d-flex align-items-center gap-1"><i class="bi bi-check-circle-fill text-success"></i> Permanent Washable Paints</span>
+          <span class="d-flex align-items-center gap-1"><i class="bi bi-check-circle-fill text-success"></i> Real Mirrors &amp; Brass Bells</span>
+          <span class="d-flex align-items-center gap-1"><i class="bi bi-check-circle-fill text-success"></i> Pan-India Delivery</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PRODUCTS CATALOG & INTERACTIVE FILTER SECTION (BOOTSTRAP 5)
+         Easily filter, search, sort, and browse all products
+         ========================================================================= -->
+    <section class="py-5" id="products-catalog-section">
+      <div class="container">
+        
+        <!-- =====================================================================
+             CATEGORY FILTER PILLS (Bootstrap Nav-Pills)
+             Clicking any category instantly filters the product cards
+             ===================================================================== -->
+        <div class="d-flex justify-content-center mb-4">
+          <div class="category-filter-pills d-flex gap-2 flex-wrap justify-content-center" id="category-pills-container">
+            <button type="button" class="category-pill-btn two-cat-pill active" data-category="all" onclick="filterByCategory('all')">
+              <span>✨</span>
+              <span>All Products</span>
+              <span class="cat-count-badge">12</span>
+            </button>
+            <button type="button" class="category-pill-btn two-cat-pill" data-category="bags" onclick="filterByCategory('bags')">
+              <span>👜</span>
+              <span>Handpainted Bags</span>
+              <span class="cat-count-badge">6</span>
+            </button>
+            <button type="button" class="category-pill-btn two-cat-pill" data-category="torans" onclick="filterByCategory('torans')">
+              <span>🪔</span>
+              <span>Festive Torans</span>
+              <span class="cat-count-badge">6</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- =====================================================================
+             SEARCH & SORT TOOLBAR (Bootstrap Grid)
+             ===================================================================== -->
+        <div class="row g-3 align-items-center justify-content-between mb-4 pb-2">
+          
+          <!-- Live Search Input -->
+          <div class="col-12 col-md-6 col-lg-5">
+            <div class="position-relative">
+              <i class="bi bi-search position-absolute top-50 start-0 translate-middle-y ms-3 text-muted"></i>
+              <input type="text" id="catalog-search" class="form-control bootstrap-search-input" placeholder="Search by name, motif, or materials..." autocomplete="off" oninput="handleSearchInput(this.value)">
+              <button class="btn btn-sm btn-link position-absolute top-50 end-0 translate-middle-y me-2 text-muted text-decoration-none d-none" id="clearSearchBtn" type="button" onclick="clearSearch()" title="Clear Search">
+                <i class="bi bi-x-circle-fill fs-5"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Product Count & Sort Dropdown -->
+          <div class="col-12 col-md-6 col-lg-5 d-flex align-items-center justify-content-md-end gap-3 flex-wrap">
+            <span id="catalog-count" class="small fw-bold text-nowrap" style="color: var(--coral-primary);">
+              Showing 12 of 12 handcrafted pieces
+            </span>
+            <select id="catalog-sort" class="form-select form-select-sm bootstrap-sort-select w-auto" aria-label="Sort products" onchange="handleSortChange(this.value)">
+              <option value="featured">✨ Featured First</option>
+              <option value="price-low">💰 Price: Low to High</option>
+              <option value="price-high">💎 Price: High to Low</option>
+              <option value="rating">⭐ Customer Rating</option>
+            </select>
+          </div>
+
+        </div>
+
+        <!-- =====================================================================
+             BOOTSTRAP 5 PRODUCT CARDS GRID
+             Automatically populated from data/products.js
+             Responsive: 1 col on mobile, 2 cols on tablets, 3 cols on desktops
+             ===================================================================== -->
+        <div class="row g-4 mb-5" id="catalog-grid">
+          <!-- Dynamically populated via modern.js -> createBootstrapCard() -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PRE-FOOTER ARTISANAL CTA BANNER (CUSTOM DESIGNS AVAILABLE)
+         Features floral envelope charm, sage background (#718566), and direct WhatsApp pill
+         ========================================================================= -->
+    <section class="prefooter-artisanal-cta" id="custom-cta">
+      <div class="container cta-banner-inner">
+        
+        <!-- Left: Envelope with Flowers Illustration -->
+        <div class="cta-banner-left-art">
+          <img src="assets/images/hero/envelope-floral.png" alt="Handcrafted Floral Envelope" class="cta-art-envelope">
+        </div>
+
+        <!-- Middle-Left: Title Lockup -->
+        <div class="cta-banner-heading-wrap">
+          <div class="cta-custom-tag-badge">
+            <span class="sparkle">✦</span>
+            <span>Custom Designs Also Available</span>
+            <span class="sparkle">✦</span>
+          </div>
+          <span class="cta-banner-eyebrow">LET'S CREATE TOGETHER</span>
+          <h2 class="cta-banner-headline">Have a custom craft<br>in mind?</h2>
+        </div>
+
+        <!-- Vertical Line Divider -->
+        <div class="cta-banner-divider" aria-hidden="true"></div>
+
+        <!-- Middle-Right: Action & Description -->
+        <div class="cta-banner-action-wrap">
+          <p class="cta-banner-desc">
+            <strong>Custom designs also available!</strong> From personalized names on festive entrance torans to handpainted custom canvas totes, we'd love to handcraft your ideas with love.
+          </p>
+          <div class="cta-banner-buttons-group">
+            <a href="https://wa.me/919876543210?text=Hello%20KraftAmore!%20%F0%9F%8C%B8%20I%20would%20like%20to%20discuss%20a%20custom%20design%20(personalized%20toran%20or%20handpainted%20canvas%20bag)!" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn-cta-banner-primary wa-link"
+               title="Order Custom Design via WhatsApp">
+              <svg class="btn-wa-icon" viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.888 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+              </svg>
+              <span>Order Custom Design via WhatsApp</span>
+              <span class="btn-arrow-circle">→</span>
+            </a>
+            <a href="index.html#catalog-preview" class="btn-cta-banner-secondary">
+              <span>View Bestsellers On Home →</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Vase with Flowers Illustration -->
+        <div class="cta-banner-right-art">
+          <img src="assets/images/hero/vase-floral.png" alt="Artisan Floral Vase" class="cta-art-vase">
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       FOOTER SECTION (Matches Site Theme)
+       ========================================================================= -->
+    <!-- =========================================================================
+       ARTISANAL STUDIO FOOTER (BOTANICAL DARK #223124 REFERENCE-MATCHED)
+       ========================================================================= -->
+    <!-- =========================================================================
+       ARTISANAL STUDIO FOOTER (3 CLEAN FOCUSED COLUMNS)
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      
+      <!-- Column 1: Brand & Studio Identity -->
+      <div>
+        <div class="footer-brand-title">
+          <img src="assets/images/logo/logo.png" alt="KraftAmore" class="footer-logo-img">
+          <div>
+            <div class="footer-brand-name">KraftAmore <span class="coral-heart">♡</span></div>
+            <small class="footer-brand-tagline">CREATIONS • CRAFTS • HAPPINESS</small>
+          </div>
+        </div>
+        <p class="footer-desc">
+          Artisanal small business based in Gujarat, India. Specializing in organic handpainted canvas tote bags and traditional festive entrance torans handcrafted with devotion.
+        </p>
+        <div class="footer-badge-pill">
+          <span>🇮🇳</span>
+          <span>Proudly Handcrafted in Gujarat (#VocalForLocal)</span>
+        </div>
+      </div>
+
+      <!-- Column 2: Collections -->
+      <div>
+        <h4 class="footer-col-head">Collections</h4>
+        <ul class="footer-nav-list">
+          <li><a href="products.html">All Handcrafted Pieces (12)</a></li>
+          <li><a href="products.html?category=bags">Handpainted Bags (6)</a></li>
+          <li><a href="products.html?category=torans">Festive Torans (6)</a></li>
+          <li><a href="products.html?category=bags">Everyday Aesthetic Totes</a></li>
+          <li><a href="products.html?category=torans">Auspicious Bandhanwars</a></li>
+          <li><a href="index.html#custom-cta">Custom Personalization</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Let's Connect -->
+      <div>
+        <h4 class="footer-col-head">Let's Connect</h4>
+        <ul class="footer-contact-list">
+          <li class="footer-contact-item">
+            <i class="bi bi-geo-alt-fill footer-contact-icon"></i>
+            <span>Gujarat, India • Pan-India Delivery</span>
+          </li>
+          <li class="footer-contact-item">
+            <i class="bi bi-envelope-fill footer-contact-icon"></i>
+            <a href="mailto:hello.kraftamore@gmail.com">hello.kraftamore@gmail.com</a>
+          </li>
+          <li class="footer-contact-item">
+            <i class="bi bi-instagram footer-contact-icon"></i>
+            <a href="https://www.instagram.com/kraftamore.in" target="_blank" rel="noopener noreferrer">@kraftamore.in</a>
+          </li>
+        </ul>
+
+        <!-- Direct WhatsApp Pill Button -->
+        <a href="https://wa.me/919876543210?text=Hi%20KraftAmore!%20I%20would%20like%20to%20inquire%20about%20your%20handcrafted%20creations." 
+           target="_blank" rel="noopener noreferrer" class="footer-wa-pill">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.888 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+          </svg>
+          <span>Chat on WhatsApp</span>
+        </a>
+
+        <!-- Social Buttons -->
+        <div class="footer-social-row">
+          <a href="https://www.instagram.com/kraftamore.in" target="_blank" rel="noopener noreferrer" class="footer-social-btn" title="Follow on Instagram">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="footer-social-btn" title="Chat on WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+          <a href="mailto:hello.kraftamore@gmail.com" class="footer-social-btn" title="Email Studio">
+            <i class="bi bi-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Strip -->
+    <div class="container footer-bottom-strip">
+      <div>
+        <p class="mb-1">&copy; 2026 KraftAmore Studio. All rights reserved. Handcrafted with devotion in Gujarat, India.</p>
+        <span class="footer-hashtags">#HandmadeWithLove • #HomeSweetHome • #FestiveDecor • #VocalForLocal</span>
+      </div>
+      <button type="button" class="footer-back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        <span>Back to Top</span>
+        <span>↑</span>
+      </button>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       INQUIRY BAG DRAWER
+       ========================================================================= -->
+  <div class="bag-drawer-overlay" id="bag-drawer-backdrop"></div>
+  <aside class="bag-drawer" id="bag-drawer" aria-label="Your Inquiry Bag">
+    <div class="bag-drawer-header">
+      <div class="bag-drawer-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <h3>Your Inquiry Bag</h3>
+      </div>
+      <button class="bag-close-btn" id="close-bag-btn" aria-label="Close Inquiry Bag">&times;</button>
+    </div>
+
+    <div class="bag-drawer-body" id="bag-items-list"></div>
+
+    <div class="bag-drawer-footer" id="bag-drawer-footer">
+      <div class="bag-subtotal-row">
+        <span>Estimated Total:</span>
+        <span class="bag-total-amount" id="bag-total-amount">₹0</span>
+      </div>
+      <a href="#" class="btn-hero-solid w-100 justify-content-center py-3 mt-3 text-decoration-none" id="bag-wa-submit" target="_blank">
+        <span>Inquire Bag via WhatsApp 💬</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- =========================================================================
+       BOOTSTRAP 5 QUICK DETAILS MODAL DIALOG
+       Standard Bootstrap 5 Modal component for product details & WhatsApp order
+       ========================================================================= -->
+  <div class="modal fade" id="quick-view-modal" tabindex="-1" aria-labelledby="quickViewModalLabel" aria-hidden="true" style="display: none;" onclick="if(event.target===this)closeQuickView()">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content rounded-4 border-0 shadow-lg overflow-hidden position-relative">
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3 z-3" id="quick-view-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeQuickView()"></button>
+        <div class="modal-body p-4" id="quick-view-content">
+          <!-- Dynamically populated via modern.js -> openQuickView() -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       MODULAR SCRIPTS
+       1. Bootstrap 5 JS Bundle
+       2. Store Configuration
+       3. Products Catalog Data (EASY TO ADD NEW PRODUCTS: edit data/products.js!)
+       4. Application Logic
+       ========================================================================= -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="data/config.js"></script>
+  <script src="data/products.js"></script>
+  <script src="assets/js/modern.js"></script>
+</body>
+</html>
